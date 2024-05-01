@@ -25,7 +25,7 @@ WebUI.verifyElementText(findTestObject('Fitur Onboarding/Login/headerh2_hai, kas
 
 WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/a_ingin mencoba, daftar'))
 
-WebUI.verifyElementText(findTestObject('Fitur Onboarding/Daftar/field label_nama toko_daftarPage'), 'nama toko')
+WebUI.verifyElementText(findTestObject('Fitur Onboarding/Daftar/label_nama toko'), 'nama toko')
 
 WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Daftar/input_nama toko_name'), 'Katalon')
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>field label_nama toko_daftarPage</name>
+   <name>label_nama toko</name>
    <tag></tag>
-   <elementGuidId>ed90d9ef-dd64-45b3-b839-45a3d0e8ad96</elementGuidId>
+   <elementGuidId>b47ca9cb-c3d3-4599-88bc-996526eb3cd5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>153e2792-73d4-4557-8921-e20645212d6f</webElementGuid>
+      <webElementGuid>dc456396-1f82-4e6e-8dd8-a489f65dde08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>name-label</value>
-      <webElementGuid>2a0d3d1d-97f8-46c4-9813-4b4ba3f27605</webElementGuid>
+      <webElementGuid>1fd6c928-2f7b-4f0d-b23e-a91dee010d5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>for</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>0ca0b5c8-53c5-4053-87bf-d1d1e20076d2</webElementGuid>
+      <webElementGuid>841a67f5-8ef0-4940-85e9-8398e25f0c2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-form__label css-1701hoo</value>
-      <webElementGuid>3f47a363-8dac-4d67-98f8-00112e442c21</webElementGuid>
+      <webElementGuid>b156f20e-95c2-4fc9-8be9-8128993f8824</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>nama toko</value>
-      <webElementGuid>cbe83dce-c651-4caf-b44d-4d0b818a0bfc</webElementGuid>
+      <webElementGuid>66986eb4-f615-406e-9c2f-537267c23b92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;name-label&quot;)</value>
-      <webElementGuid>230e6283-7f4d-4a4f-9a9b-7fb48597ca55</webElementGuid>
+      <webElementGuid>587ee337-4fde-4d84-9a93-b3a8e99d952e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//label[@id='name-label']</value>
-      <webElementGuid>093706f0-3be0-4163-ae66-58c74031bc19</webElementGuid>
+      <webElementGuid>a2e7a16b-6718-43c3-bcd8-f81d15ad7da1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div[2]/div/div/label</value>
-      <webElementGuid>031206e7-1b56-4f98-a49b-51d44e31dc14</webElementGuid>
+      <webElementGuid>b1afa521-52ee-42b4-a155-224ca72ec98e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='- kasirAjaDev'])[1]/following::label[1]</value>
-      <webElementGuid>2a3994c7-128f-43b7-8dff-bb467b885609</webElementGuid>
+      <webElementGuid>c2c041fc-f7f1-4951-928c-ad633f684bcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='hai, kasirAja'])[1]/following::label[1]</value>
-      <webElementGuid>8d777050-a7a0-4f65-ae69-19a0669f79c2</webElementGuid>
+      <webElementGuid>9319a3d9-1ff5-4b59-a0f3-a592e719c4d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='email'])[1]/preceding::label[1]</value>
-      <webElementGuid>9a48dd65-087d-4493-bdf5-c4caca59cef2</webElementGuid>
+      <webElementGuid>dccea4e5-6c01-4147-a942-cca27a8856d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='password'])[1]/preceding::label[2]</value>
-      <webElementGuid>dc777337-bc66-4b91-8445-2099a40f19ec</webElementGuid>
+      <webElementGuid>dc4549a2-7a71-4ef4-a349-c960a72feaaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='nama toko']/parent::*</value>
-      <webElementGuid>cdd5c4ef-ec6d-4e50-bf69-579a85d0e976</webElementGuid>
+      <webElementGuid>fd2ceca1-f980-4f8e-87b6-9b8e3b50da40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
-      <webElementGuid>3889ec3a-226c-4289-abb5-18bb1c8511cc</webElementGuid>
+      <webElementGuid>eddce6b3-f31c-42d8-9e3e-fd43bc138db4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@id = 'name-label' and (text() = 'nama toko' or . = 'nama toko')]</value>
-      <webElementGuid>6ca893d1-037c-42b8-8b8f-c85adaee2f7f</webElementGuid>
+      <webElementGuid>d371897c-0654-4af8-96a5-9dad69b50481</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

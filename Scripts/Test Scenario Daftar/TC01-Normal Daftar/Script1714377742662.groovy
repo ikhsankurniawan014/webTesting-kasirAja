@@ -23,6 +23,8 @@ WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
 
 WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/a_ingin mencoba, daftar'))
 
+WebUI.verifyElementText(findTestObject('Fitur Onboarding/Daftar/label_nama toko'), 'nama toko', FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Daftar/input_nama toko_name'), 'Katalon')
 
 WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Daftar/input_email_email'), 'testkatalon@gmail.com')
