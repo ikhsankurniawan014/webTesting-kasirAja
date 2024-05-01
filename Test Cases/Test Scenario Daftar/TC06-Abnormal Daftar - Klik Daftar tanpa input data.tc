@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06-Abnormal Daftar - Klik Daftar tanpa input data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1de66a9-e0e1-4827-a2aa-75f761aab9fa</testCaseGuid>
+</TestCaseEntity>

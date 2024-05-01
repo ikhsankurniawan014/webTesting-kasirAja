@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Data-Driven-Test</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1b1aa6fb-e110-43cd-bed2-859904c6e774</testSuiteGuid>
+   <testCaseLink>
+      <guid>a2e3ffdc-e25a-47eb-bc3f-859a27917a48</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data-Driven-Test/TC01-Normal Daftar</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1b2b214a-5520-4221-934f-ea9ab307f383</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data-Driven-Test/Data-Daftar</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1b2b214a-5520-4221-934f-ea9ab307f383</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namaToko</value>
+         <variableId>82ee8c19-4801-4abe-a48c-3165b005cd3b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1b2b214a-5520-4221-934f-ea9ab307f383</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>339daa92-a015-40db-bb1b-ded43e8441fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1b2b214a-5520-4221-934f-ea9ab307f383</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>45dfb7c9-69d2-400b-b1eb-fe63d55d1984</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

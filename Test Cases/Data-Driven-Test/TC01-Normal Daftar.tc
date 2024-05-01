@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01-Normal Daftar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a592154e-a3e0-4c10-9629-ddc021ed986b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82ee8c19-4801-4abe-a48c-3165b005cd3b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>339daa92-a015-40db-bb1b-ded43e8441fa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45dfb7c9-69d2-400b-b1eb-fe63d55d1984</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>82ee8c19-4801-4abe-a48c-3165b005cd3b</id>
+      <masked>false</masked>
+      <name>namaToko</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>339daa92-a015-40db-bb1b-ded43e8441fa</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>45dfb7c9-69d2-400b-b1eb-fe63d55d1984</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
