@@ -12,49 +12,56 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d4012557-aa1b-4555-83d3-11b6c79b35d7</testSuiteGuid>
    <testCaseLink>
-      <guid>0dafe097-4cc5-4afd-91aa-88d8b39cfe8b</guid>
+      <guid>73cbd0bf-c1f1-4851-b4fd-d0f76ee94fe2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenario Login/TC01-Normal Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bc5e2c6c-71c0-4fe8-bad1-a9a9a7d027d1</guid>
+      <guid>b394e002-061f-486e-9e55-ea5959a05f1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Scenario Login/TC01-Normal Login - Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eaf63e55-dc92-4f07-9fd5-46f0d901b2f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenario Login/TC02-Abnormal Login - Email tidak diinput</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>99bb5411-d7cf-428d-acf0-a9a7faa0b99e</guid>
+      <guid>00e75b19-3948-4885-a132-cd750dc21ca2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenario Login/TC03-Abnormal Login - Password tidak diinput</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>58db0f07-14ef-4c5b-bac4-bd0d358b4087</guid>
+      <guid>3b5132d0-fc78-4705-81f5-6e8e32033a27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenario Login/TC04-Abnormal Login - Format email tidak sesuai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b1adba4e-0cf4-441d-b901-06be9afc783a</guid>
+      <guid>c127317e-b4b7-4a78-ae67-29b044751266</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenario Login/TC05-Abnormal Login - Klik Login tanpa input data</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a9b88e0d-e38a-4bdd-8199-9be7832b5b63</guid>
+      <guid>4df1981e-7b46-4bfe-a636-cb1cb74733c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenario Login/TC06-Abnormal Login - Email benar Password tidak sesuai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>41a0786d-666b-42db-b816-56b1c133d02a</guid>
+      <guid>153cfd4d-63a7-451f-8e7f-4943950a0dff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Scenario Login/TC07-Abnormal Login - Email tidak sesuai Password benar</testCaseId>
