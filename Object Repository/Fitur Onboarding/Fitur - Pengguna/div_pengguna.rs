@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_pengguna</name>
+   <tag></tag>
+   <elementGuidId>7327a649-54a1-456a-94b5-a6491db4e03e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/a[7]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(7) > div.css-ewi1jp > div.css-1xhj18k > div.css-1mqa38q</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a316c178-4fb9-492d-a945-ee389466ae6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1mqa38q</value>
+      <webElementGuid>6771af30-5d30-48ef-bac6-ce63bc831fc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>pengguna</value>
+      <webElementGuid>71303be5-46c4-45b4-9716-0fcefe6d1ea8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;css-k008qs&quot;]/div[@class=&quot;css-tnxwfz&quot;]/div[@class=&quot;chakra-stack css-owjkmg&quot;]/a[7]/div[@class=&quot;css-ewi1jp&quot;]/div[@class=&quot;css-1xhj18k&quot;]/div[@class=&quot;css-1mqa38q&quot;]</value>
+      <webElementGuid>691ac3bb-d7e4-4deb-86c7-3b9ca2064d3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/a[7]/div/div/div</value>
+      <webElementGuid>05a55b0e-3029-4a75-9aed-06f89cad41f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='produk'])[1]/following::div[3]</value>
+      <webElementGuid>3069d36f-0525-43a5-acbc-5bc88f5bea10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='kategori'])[1]/following::div[6]</value>
+      <webElementGuid>fac8ddeb-8dc9-4c30-a4a9-b2ef4cd4e970</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pelanggan'])[1]/preceding::div[1]</value>
+      <webElementGuid>481bc9bb-f595-4320-ac64-2718df2d4db0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- pelanggan'])[1]/preceding::div[4]</value>
+      <webElementGuid>0cc34e73-7d11-4c66-a1d7-cc9bffda83ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='pengguna']/parent::*</value>
+      <webElementGuid>d80a8311-0a51-478c-9f93-672e5e760032</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[7]/div/div/div</value>
+      <webElementGuid>0d5b9110-ad53-4ef0-8c70-a64a526a60f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'pengguna' or . = 'pengguna')]</value>
+      <webElementGuid>aeead5ae-0aad-49fe-bd82-e2d7ae3f2958</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

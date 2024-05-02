@@ -17,23 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Test Scenario Login/TC01-Normal Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/div_pengguna'))
 
 WebUI.takeFullPageScreenshot()
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Fitur Onboarding/Login/input_email_email'), 'testingkatalon@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Fitur Onboarding/Login/input_password_password'), 'vOoj4tQjAWVV9mKJ1JcWEw==')
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/a_tambah'))
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Fitur Onboarding/Login/button_login'))
+WebUI.delay(2)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/button_simpan'))
+
+WebUI.verifyElementPresent(findTestObject('Fitur Onboarding/Fitur - Pengguna/alert/div_name is not allowed to be empty'), 
+    0)
 
 WebUI.takeFullPageScreenshot()
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_item ditambahkan</name>
+   <name>div_password is not allowed to be empty</name>
    <tag></tag>
-   <elementGuidId>7114209a-5cd6-4fc0-bc00-cb30ace3d775</elementGuidId>
+   <elementGuidId>0d4380f8-c93b-470b-b92d-370ba933caf7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='1']/div/div[2]</value>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div[2]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.chakra-alert__desc.css-zycdy9</value>
+         <value>div.chakra-alert.css-qwanz3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,86 +23,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>46e5bcee-010d-440d-9da6-ac4e0ddb75d9</webElementGuid>
+      <webElementGuid>92f743f1-a9e3-4a8d-b6ab-4022341c9a1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>d5961685-d382-4bfb-ab50-e0b60ef19ede</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chakra-alert__desc css-zycdy9</value>
-      <webElementGuid>3107dd08-5d8d-4efa-ba52-3fa20b6b50a9</webElementGuid>
+      <value>chakra-alert css-qwanz3</value>
+      <webElementGuid>834912ed-701a-4ff2-b10e-d45bcda67b51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>item ditambahkan</value>
-      <webElementGuid>ff0e6da9-7316-43b2-8589-9ee534ae6fdd</webElementGuid>
+      <value>&quot;password&quot; is not allowed to be empty</value>
+      <webElementGuid>e4d2be56-7820-463e-a101-3fad69356c90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;chakra-toast-manager-top-right&quot;)/li[@class=&quot;chakra-toast&quot;]/div[@class=&quot;chakra-toast__inner&quot;]/div[@id=&quot;1&quot;]/div[@class=&quot;css-njbp03&quot;]/div[@class=&quot;chakra-alert__desc css-zycdy9&quot;]</value>
-      <webElementGuid>24c5532f-7251-4a40-b45b-4ef76e7b6812</webElementGuid>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;css-k008qs&quot;]/div[@class=&quot;css-1r35f0l&quot;]/div[@class=&quot;chakra-container css-9rmdie&quot;]/div[@class=&quot;css-1t33j5j&quot;]/div[@class=&quot;chakra-alert css-qwanz3&quot;]</value>
+      <webElementGuid>1030650f-8fdf-4b11-b613-cc4cb6a9a5bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='1']/div/div[2]</value>
-      <webElementGuid>611b1efd-c655-442a-9242-cf73ad2c8403</webElementGuid>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div[2]/div</value>
+      <webElementGuid>76681325-a706-4714-ba63-ebee025de102</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='success'])[1]/following::div[1]</value>
-      <webElementGuid>2599d31f-8c40-4981-9f38-9100881de297</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='dashboard'])[2]/following::div[2]</value>
+      <webElementGuid>e925f489-5dca-485a-8b63-09cc06628e64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='success'])[2]/preceding::div[1]</value>
-      <webElementGuid>162dfa5b-d668-47cf-a523-2a156ad57624</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='nama'])[1]/preceding::div[1]</value>
+      <webElementGuid>ec2ea4f1-83ab-4f68-8056-5dc75c707def</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='item ditambahkan'])[2]/preceding::div[2]</value>
-      <webElementGuid>77d0b5ff-beac-40e7-a3ad-326f05d8b1e8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='email'])[1]/preceding::div[3]</value>
+      <webElementGuid>5eeaf5b4-88b8-4959-beb9-80f4b1376c82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='item ditambahkan']/parent::*</value>
-      <webElementGuid>ce7a9846-9566-4b8e-9ffd-1fda238f9e77</webElementGuid>
+      <value>//*/text()[normalize-space(.)='&quot;password&quot; is not allowed to be empty']/parent::*</value>
+      <webElementGuid>a86e3116-2c7b-4e88-9fec-07c39401eb42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/div/div/div/div[2]</value>
-      <webElementGuid>f2e4476b-c3e8-4257-a407-c9b8a58a5da4</webElementGuid>
+      <value>//div[2]/div[2]/div[2]/div</value>
+      <webElementGuid>918a34c9-15f7-4027-8ff5-45b3c6c461b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'item ditambahkan' or . = 'item ditambahkan')]</value>
-      <webElementGuid>28ace87c-e4b8-4ba5-9cf6-6f7acdf39810</webElementGuid>
+      <value>//div[(text() = '&quot;password&quot; is not allowed to be empty' or . = '&quot;password&quot; is not allowed to be empty')]</value>
+      <webElementGuid>f954410c-e040-4a07-a568-97addb1b4e72</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

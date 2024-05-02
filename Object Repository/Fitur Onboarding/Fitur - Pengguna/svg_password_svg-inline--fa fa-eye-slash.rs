@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_password_svg-inline--fa fa-eye-slash</name>
+   <tag></tag>
+   <elementGuidId>0d298a72-d44d-47e6-bc27-3bfdd36d8a8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='password'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.svg-inline--fa.fa-eye-slash</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>f4a96683-5d78-4bbb-9446-5a977dc95767</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c0028d1a-4e11-475a-a1d5-34c781e27601</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>c07f230e-bf04-414f-922a-0d63336f4ab2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-prefix</name>
+      <type>Main</type>
+      <value>fas</value>
+      <webElementGuid>689c7a94-5493-4042-9fdf-80e8947b094d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-icon</name>
+      <type>Main</type>
+      <value>eye-slash</value>
+      <webElementGuid>b5e581e8-934c-447b-bc7c-1a2fbfa70d91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svg-inline--fa fa-eye-slash </value>
+      <webElementGuid>bce17ff1-19b0-456b-a894-b78088c80eaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>3ae3c84c-35af-4cba-b0a6-2ab8ca55f2e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>1cb3f487-ffeb-4ddc-8474-3c7e06beb2c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 640 512</value>
+      <webElementGuid>6eedfc28-086f-4a39-b5d2-05d1edc24d99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;css-k008qs&quot;]/div[@class=&quot;css-1r35f0l&quot;]/div[@class=&quot;chakra-container css-9rmdie&quot;]/div[@class=&quot;css-1t33j5j&quot;]/div[@class=&quot;chakra-form-control css-rj5r62&quot;]/div[@class=&quot;chakra-input__group css-4302v8&quot;]/div[@class=&quot;chakra-input__right-element css-4qk9ai&quot;]/button[@class=&quot;chakra-button css-1t6k0fn&quot;]/svg[@class=&quot;svg-inline--fa fa-eye-slash&quot;]</value>
+      <webElementGuid>2780dd75-7bca-4499-bc6b-0286eb53454f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='password'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>c93e5834-f446-4aa6-9ed7-74dad5ac608c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='email'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>f4f5ae5f-cb44-4fd7-bb22-289c69d53eae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='simpan'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>a33ff59e-7a78-4568-bb1c-139ff59319e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

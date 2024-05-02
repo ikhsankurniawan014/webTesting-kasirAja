@@ -17,31 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Test Scenario Login/TC01-Normal Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/div_pengguna'))
 
-WebUI.verifyElementText(findTestObject('Fitur Onboarding/Login/headerh2_hai, kasirAja_homepage'), 'hai, kasirAja')
+WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/a_ingin mencoba, daftar'))
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Fitur Onboarding/Daftar/label_nama toko'), 'nama toko')
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/a_tambah'))
 
-WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Daftar/input_nama toko_name'), 'Katalon')
+WebUI.takeFullPageScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Daftar/input_email_email'), 'testkatalon@gmail.com')
+WebUI.delay(2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Fitur Onboarding/Daftar/input_password_password'), 'vOoj4tQjAWVV9mKJ1JcWEw==')
+WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/input_email_email_1'), 'admin@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/btn hide password'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/input_password_password_1'), 
+    'vOoj4tQjAWVV9mKJ1JcWEw==')
 
-WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/btn unhide password'))
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/svg_password_svg-inline--fa fa-eye-slash'))
 
-WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/button_daftar'))
+WebUI.takeFullPageScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('Fitur Onboarding/Daftar/Alert daftar berhasil'), 60)
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/svg_password_svg-inline--fa fa-eye'))
 
-WebUI.verifyElementText(findTestObject('Fitur Onboarding/Login/headerh2_hai, kasirAja_homepage'), 'hai, kasirAja')
+WebUI.takeFullPageScreenshot()
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pengguna/button_simpan'))
+
+WebUI.verifyElementPresent(findTestObject('Fitur Onboarding/Fitur - Pengguna/alert/div_name is not allowed to be empty'), 
+    0)
+
+WebUI.takeFullPageScreenshot()
 

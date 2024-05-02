@@ -57,14 +57,14 @@
       <guid>4df1981e-7b46-4bfe-a636-cb1cb74733c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Scenario Login/TC06-Abnormal Login - Email benar Password tidak sesuai</testCaseId>
+      <testCaseId>Test Cases/Test Scenario Login/TC06-Abnormal Login - Email benar, Password tidak sesuai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>153cfd4d-63a7-451f-8e7f-4943950a0dff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Scenario Login/TC07-Abnormal Login - Email tidak sesuai Password benar</testCaseId>
+      <testCaseId>Test Cases/Test Scenario Login/TC07-Abnormal Login - Email tidak sesuai, Password benar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

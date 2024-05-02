@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02-Abnormal Tambah Pengguna - Nama tidak diinput</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9091542e-4018-49df-befc-6b9f4579d018</testCaseGuid>
+</TestCaseEntity>

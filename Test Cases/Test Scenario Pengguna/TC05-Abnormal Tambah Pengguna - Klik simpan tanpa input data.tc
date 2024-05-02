@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05-Abnormal Tambah Pengguna - Klik simpan tanpa input data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>372cd496-c4c6-4fd4-ae27-dd34c876aeba</testCaseGuid>
+</TestCaseEntity>

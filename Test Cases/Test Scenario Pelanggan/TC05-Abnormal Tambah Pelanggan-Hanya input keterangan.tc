@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05-Abnormal Tambah Pelanggan-Hanya input keterangan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0b1daea-cf6b-4f19-bd22-01c6df151a7e</testCaseGuid>
+</TestCaseEntity>
