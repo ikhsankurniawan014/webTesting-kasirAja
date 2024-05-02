@@ -21,9 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
 
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/a_ingin mencoba, daftar'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('Fitur Onboarding/Daftar/label_nama toko'), 'nama toko', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Daftar/input_nama toko_name'), 'Katalon')
 
@@ -35,9 +43,15 @@ WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/btn hide p
 
 WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/btn unhide password'))
 
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/button_daftar'))
 
 WebUI.verifyElementPresent(findTestObject('Fitur Onboarding/Daftar/Alert daftar berhasil'), 60)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.closeBrowser()
 

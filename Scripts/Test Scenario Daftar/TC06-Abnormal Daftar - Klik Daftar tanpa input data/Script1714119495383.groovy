@@ -21,11 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
 
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/a_ingin mencoba, daftar'))
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/button_daftar'))
 
 WebUI.verifyElementPresent(findTestObject('Fitur Onboarding/Daftar/alert nama toko tidak diinput'), 60)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

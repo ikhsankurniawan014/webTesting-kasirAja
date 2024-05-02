@@ -21,13 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
 
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Fitur Onboarding/Login/input_email_email'), 'testingkatal0n@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Fitur Onboarding/Login/input_password_password'), 'vOoj4tQjAWVV9mKJ1JcWEw==')
 
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Fitur Onboarding/Login/button_login'))
 
 WebUI.verifyElementPresent(findTestObject('Fitur Onboarding/Login/div_Kredensial yang Anda berikan salah'), 0)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

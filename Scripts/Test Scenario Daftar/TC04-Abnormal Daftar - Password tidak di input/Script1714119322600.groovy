@@ -21,15 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
 
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/a_ingin mencoba, daftar'))
 
 WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Daftar/input_nama toko_name'), 'Katalon')
 
 WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Daftar/input_email_email'), 'testkatalon@gmail.com')
 
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Daftar/button_daftar'))
 
 WebUI.verifyElementPresent(findTestObject('Fitur Onboarding/Daftar/alert password tidak diinput'), 60)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.closeBrowser()
 

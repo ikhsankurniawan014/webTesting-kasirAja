@@ -21,11 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
 
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
+
 WebUI.setEncryptedText(findTestObject('Fitur Onboarding/Login/input_password_password'), 'vOoj4tQjAWVV9mKJ1JcWEw==')
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Fitur Onboarding/Login/button_login'))
 
 WebUI.verifyElementPresent(findTestObject('Fitur Onboarding/Login/div_email is not allowed to be empty'), 10)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

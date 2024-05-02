@@ -35,5 +35,15 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Fitur Onboarding/Login/button_login'))
 
+WebUI.click(findTestObject('Fitur Onboarding/Login/button_K'))
+
 WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Fitur Onboarding/Login/button_logout'))
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 

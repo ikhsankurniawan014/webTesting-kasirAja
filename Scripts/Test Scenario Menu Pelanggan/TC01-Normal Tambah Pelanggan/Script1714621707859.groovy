@@ -17,23 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Test Scenario Login/TC01-Normal Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Fitur Onboarding/Login/input_email_email'), 'testingkatalon@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Fitur Onboarding/Login/input_password_password'), 'vOoj4tQjAWVV9mKJ1JcWEw==')
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pelanggan/div_pelanggan'))
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pelanggan/a_tambah'))
 
-WebUI.click(findTestObject('Fitur Onboarding/Login/button_login'))
+WebUI.takeFullPageScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pelanggan/input_nama_nama'), 'Test')
+
+WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pelanggan/input_no.hp_no.hp'), '08123456789')
+
+WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pelanggan/input_alamat_alamat'), 'Jakarta')
+
+WebUI.setText(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pelanggan/input_keterangan_keterangan'), 'Pelanggan baru')
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pelanggan/button_simpan'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Fitur Onboarding/Fitur - Pelanggan/div_successitem ditambahkan'), 
+    0)
 
 WebUI.takeFullPageScreenshot()
 
